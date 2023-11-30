@@ -7,11 +7,10 @@ import {
   IoIosClose,
   IoMdGift,
   IoMdCart,
-  IoHomeOutline,
   IoMdCash,
   IoMdHome,
 } from "react-icons/io";
-import { LuPackage } from "react-icons/lu";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

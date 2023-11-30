@@ -57,9 +57,6 @@ const menuItems = [
     price: 3.2,
     image: "https://images.unsplash.com/photo-1563731649913-fab41907b535?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image link from Pexels or Unsplash
   },
-];
-
-const handpickedItems = [
   {
     id: 8,
     name: "Affogato",
@@ -112,6 +109,61 @@ const handpickedItems = [
     price: 4.3,
     image: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
+];
+
+const handpickedItems = [
+  {
+    id: 14,
+    name: "Affogato",
+    description:
+      'Vanilla ice cream "drowned" in a shot of hot espresso. A delightful dessert and coffee combo.',
+    price: 4.5,
+    image:
+      "https://images.unsplash.com/photo-1567357502214-dd13f3512e71?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 15,
+    name: "Turkish Coffee",
+    description:
+      "Strong coffee brewed with finely ground coffee beans and cardamom. Served unfiltered.",
+    price: 4.0,
+    image:
+      "https://images.unsplash.com/photo-1625965546698-d73053ef13b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 16,
+    name: "Hazelnut Latte",
+    description:
+      "Latte infused with rich hazelnut flavor, topped with whipped cream.",
+    price: 4.2,
+    image:
+      "https://images.unsplash.com/photo-1633040244595-19a2f7b24512?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 16,
+    name: "Caramel Frappuccino",
+    description:
+      "Blended coffee with caramel syrup, topped with whipped cream and caramel drizzle.",
+    price: 4.7,
+    image:
+      "https://images.unsplash.com/photo-1662047102608-a6f2e492411f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 17,
+    name: "Maple Pecan Cold Brew",
+    description:
+      "Cold brew coffee with a hint of maple sweetness and a touch of pecan flavor.",
+    price: 4.4,
+    image:
+      "https://images.unsplash.com/photo-1476283640833-a4964edad217?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 18,
+    name: 'Vanilla Bean Latte',
+    description: 'Smooth latte with the natural sweetness of vanilla bean. A classic indulgence.',
+    price: 4.3,
+    image: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
   
 ];
 
@@ -119,7 +171,7 @@ const handpickedItems = [
 
 const latestOfferings = [
   {
-    id: 14,
+    id: 19,
     name: 'Caramel Macchiato',
     description: 'Espresso with steamed milk and caramel syrup.',
     price: 4.99,
@@ -129,7 +181,7 @@ const latestOfferings = [
     caffeineContent: 'Medium',
   },
   {
-    id: 15,
+    id: 20,
     name: 'Vanilla Latte',
     description: 'Espresso with frothed milk and vanilla flavoring.',
     price: 5.49,
@@ -139,7 +191,7 @@ const latestOfferings = [
     caffeineContent: 'Low',
   },
   {
-    id: 16,
+    id: 21,
     name: 'Cold Brew Coffee',
     description: 'Smooth and refreshing cold-brewed coffee.',
     price: 3.99,
@@ -149,7 +201,7 @@ const latestOfferings = [
     caffeineContent: 'High',
   },
   {
-    id: 17,
+    id: 22,
     name: 'Iced Mocha',
     description: 'Espresso with chocolate syrup and cold milk.',
     price: 5.99,
@@ -159,7 +211,7 @@ const latestOfferings = [
     caffeineContent: 'High',
   },
   {
-    id: 18,
+    id: 23,
     name: 'Hazelnut Cappuccino',
     description: 'Espresso with steamed milk and hazelnut flavor.',
     price: 6.29,
@@ -169,7 +221,7 @@ const latestOfferings = [
     caffeineContent: 'Medium',
   },
   {
-    id: 19,
+    id: 24,
     name: 'Cinnamon Dolce Latte',
     description: 'Espresso with steamed milk and cinnamon dolce syrup.',
     price: 5.79,
@@ -179,7 +231,7 @@ const latestOfferings = [
     caffeineContent: 'Medium',
   },
   {
-    id: 20,
+    id: 25,
     name: 'Mint Chocolate Chip Frappuccino',
     description: 'Blended coffee with mint syrup and chocolate chips.',
     price: 6.99,
@@ -189,7 +241,7 @@ const latestOfferings = [
     caffeineContent: 'High',
   },
   {
-    id: 21,
+    id: 26,
     name: 'Maple Pecan Latte',
     description: 'Espresso with steamed milk, maple syrup, and pecan flavor.',
     price: 6.49,
@@ -199,7 +251,7 @@ const latestOfferings = [
     caffeineContent: 'Medium',
   },
   {
-    id: 22,
+    id: 27,
     name: 'Irish Cream Cold Brew',
     description: 'Cold brew coffee with Irish cream flavor.',
     price: 4.79,
